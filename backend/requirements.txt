@@ -1,7 +1,18 @@
+# FastAPI Core
 fastapi==0.104.1
 uvicorn==0.24.0
+
+# ORM & Database
 sqlmodel==0.0.8
-bcrypt==4.0.1
 psycopg2-binary==2.9.9
-python-dotenv==1.0.0
+
+# Security & Authentication
+bcrypt==4.1.2
+python-jose[cryptography]==3.3.0
 python-multipart==0.0.6
+
+# Utilities
+python-dotenv==1.0.0
+
+# Database Migration
+alembic==1.13.1
